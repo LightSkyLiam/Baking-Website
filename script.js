@@ -123,7 +123,7 @@ const sectionObs = new IntersectionObserver(sectionObsCallBack, {
 
 allSections.forEach(section => {
   sectionObs.observe(section);
-  // section.classList.add(`section--hidden`);
+  section.classList.add(`section--hidden`);
 });
 ///////////////////////////////////////
 // lazy Loading Images
